@@ -53,6 +53,7 @@ def printMenu():
     print("3- Consultar crimenes en un rango de fechas")
     print("4- Consultar crimenes por codigo y fecha")
     # TODO lab 9, agregar opcion 5 en el menu, consultar por REPORTING_AREA
+    print("5- Consultar por Reporting area ")
     print("0- Salir")
     print("*******************************************")
 
@@ -101,6 +102,8 @@ while True:
         print("\nBuscando crimenes en un rango de areas: ")
         print("Las areas estan numeradas con enteros (1 - 962)")
         print("Un area desconocida tiene el el numero 9999")
+        
+    
 
     else:
         sys.exit(0)

@@ -109,7 +109,8 @@ def indexHeightAreas(analyzer):
     Altura del indice de areas (arbol)
     """
     # TODO lab 9, completar el llamado de indexHeightAreas()
-    pass
+    altura = model.indexHeightAreas(analyzer)
+    return altura
 
 
 def indexSizeAreas(analyzer):
@@ -117,7 +118,9 @@ def indexSizeAreas(analyzer):
     Numero de nodos en el arbol por areas
     """
     # TODO lab 9, completar el llamado de indexSizeAreas()
-    pass
+    nodos = model.indexSizeAreas(analyzer)
+    
+    return nodos
 
 
 def minKeyAreas(analyzer):
@@ -125,7 +128,8 @@ def minKeyAreas(analyzer):
     La menor llave del arbol por areas
     """
     # TODO lab 9, completar el llamado de minKeyAreas()
-    pass
+    llave = model.minKeyAreas(analyzer)
+    return llave
 
 
 def maxKeyAreas(analyzer):
@@ -133,7 +137,8 @@ def maxKeyAreas(analyzer):
     La mayor llave del arbol por areas
     """
     # TODO lab 9, completar el llamado de maxKeyAreas()
-    pass
+    llave = model.maxKeyAreas(analyzer)
+    return llave
 
 
 def getCrimesByRange(analyzer, initialDate, finalDate):
@@ -163,6 +168,8 @@ def getCrimesByRangeArea(analyzer, initialArea, finalArea):
     Retorna el total de crimenes en un rango de areas
     """
     # recuerde castear los parametros a int
+    
+    
     pass
 
 
