@@ -119,7 +119,8 @@ def addAreaIndex(area_entry, crime):
     # TODO lab 9, adicionar crimen a la lista de crimenes de un area
     lst= area_entry["lstareas"]
     lt.addLast(lst, crime)
-    areaindex= area_entry[""]
+    areaindex= area_entry["areaIndex"]
+    areaentry= m.get(areaindex, crime["REPORTING_AREA"])
     return area_entry
 
     lst = datentry["lstcrimes"]
